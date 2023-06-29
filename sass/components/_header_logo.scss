@@ -1,0 +1,24 @@
+.page-header {
+    border: var(--light) solid 1px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+
+    &-dark {
+        font-family: var(--secondary-font);
+        color: var(--almost-black);
+        text-decoration: none;
+        font-size: $font-size26;
+        font-weight: 700;
+        line-height: 1, 2;
+        letter-spacing: 3%;
+        vertical-align: top;
+        text-align: left;
+    }
+}
+.logo-dark--part {
+    color: var(--brand-color);
+}

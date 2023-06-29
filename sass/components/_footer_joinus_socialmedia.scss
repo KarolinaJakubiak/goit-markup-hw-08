@@ -1,0 +1,29 @@
+.footer-list {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .footer-social {
+        margin-right: 10px;
+        width: 44px;
+        height: 44px;
+
+        &__icon {
+            background: var(--mouse);
+            border-radius: 50%;
+            fill: var(--snow);
+            width: 40px;
+            height: 40px;
+
+            &:hover {
+                background: var(--brand-color);
+                border-radius: 50%;
+                cursor: pointer;
+                fill: var(--snow);
+                transition-duration: $default-time;
+                transition-timing-function: $default-timing-function;
+            }
+        }
+    }
+}

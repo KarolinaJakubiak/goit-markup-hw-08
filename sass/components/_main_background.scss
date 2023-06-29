@@ -1,0 +1,44 @@
+.main-background {
+    background-color: var(--dark-grey);
+    padding: 200px 252px 200px 252px;
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-black {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        color: var(--snow);
+        font-size: $font-size44;
+        font-weight: 900;
+        line-height: 1, 4;
+        letter-spacing: 6%;
+        vertical-align: top;
+        text-align: center;
+    }
+    &__button {
+        background-color: var(--brand-color);
+        border: var(--brand-color);
+        border-radius: $default-border-radius;
+        box-shadow: $default-box-shadow;
+        color: var(--snow);
+        cursor: pointer;
+        width: 200px;
+        font-size: $font-size16;
+        font-weight: 700;
+        line-height: 1, 9;
+        letter-spacing: 6%;
+        vertical-align: top;
+        text-align: center;
+        padding: 10px 41px 10px 42px;
+    }
+}

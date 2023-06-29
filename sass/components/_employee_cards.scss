@@ -1,0 +1,32 @@
+.grey {
+    background-color: var(--almost-white);
+    margin: 0 auto;
+
+    .frame {
+        border-radius: $default-border-radius;
+        box-shadow: $default-box-shadow;
+        padding: 0;
+    }
+    .card-set__element {
+        background-color: var(--snow);
+        justify-content: space-between;
+        width: $employee-card-width;
+
+        .element__name {
+            font-size: $font-size16;
+            font-weight: 500;
+            line-height: 1, 2;
+            letter-spacing: 3%;
+            vertical-align: top;
+            text-align: center;
+        }
+        .element__position {
+            color: var(--mouse);
+            font-size: $font-size16;
+            line-height: 1, 2;
+            letter-spacing: 3%;
+            vertical-align: top;
+            text-align: center;
+        }
+    }
+}

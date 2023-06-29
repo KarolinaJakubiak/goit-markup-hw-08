@@ -1,0 +1,60 @@
+body {
+    font-family: var(--main-font);
+    color: var(--almost-black);
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+h4 {
+    margin: 0 auto;
+}
+
+section {
+    padding-block: 94px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.link {
+    color: var(--almost-black);
+    text-decoration: none;
+    font-size: $font-size14;
+    font-weight: 500;
+    line-height: 1, 2;
+    letter-spacing: 2%;
+    vertical-align: top;
+    text-align: left;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: var(--brand-color);
+        transition-duration: $default-time;
+        transition-timing-function: $default-timing-function;
+    }
+}
+.section-title {
+    font-size: $font-size36;
+    font-weight: 700;
+    line-height: 1, 2;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 60px;
+}
+.card-set {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+a:hover,
+:focus {
+    fill: var(--brand-color);
+    transition-duration: $default-time;
+    transition-timing-function: $default-timing-function;
+}

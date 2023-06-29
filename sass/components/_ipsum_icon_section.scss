@@ -1,0 +1,21 @@
+.element__title {
+    font-size: $font-size14;
+    font-weight: 700px;
+    line-height: 1, 1;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 40px;
+}
+.element__text {
+    color: var(--mouse);
+    font-size: $font-size14;
+    line-height: 1, 7;
+    letter-spacing: 3%;
+    vertical-align: top;
+    text-align: left;
+}
+.element__icon {
+    background-color: var(--almost-white);
+    padding-inline: 100px;
+}

@@ -1,0 +1,30 @@
+.clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+
+    &-border {
+        list-style: none;
+        border: 1px solid var(--icons-grey);
+        border-radius: $default-border-radius;
+        cursor: pointer;
+        width: 170px;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: var(--icons-grey);
+
+        &:hover,
+        :focus {
+            list-style: none;
+            border: 1px solid var(--brand-color);
+            fill: var(--brand-color);
+            border-radius: $default-border-radius;
+            transition-duration: $default-time;
+            transition-timing-function: $default-timing-function;
+        }
+    }
+}

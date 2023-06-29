@@ -1,0 +1,27 @@
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 50px;
+
+    .logos {
+        color: var(--icons-grey);
+        fill: currentColor;
+
+        &__design {
+            fill: var(--mouse);
+            width: 40px;
+            height: 40px;
+            margin-bottom: 20px;
+
+            &:hover {
+                border-radius: 50%;
+                cursor: pointer;
+                background: var(--brand-color);
+                fill: var(--snow);
+                transition-duration: $default-time;
+                transition-timing-function: $default-timing-function;
+            }
+        }
+    }
+}

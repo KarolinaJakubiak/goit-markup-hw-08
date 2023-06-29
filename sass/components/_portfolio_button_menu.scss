@@ -1,0 +1,34 @@
+.button-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    .button {
+        justify-content: space-between;
+
+        &__design {
+            border: var(--almost-white);
+            cursor: pointer;
+            width: 114px;
+            height: 38px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: $font-size16;
+            line-height: 1, 6;
+            letter-spacing: 3%;
+            vertical-align: top;
+            text-align: center;
+            border-radius: $default-border-radius;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: var(--snow);
+                background-color: var(--brand-color);
+                box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.12);
+                transition-duration: $default-time;
+                transition-timing-function: $default-timing-function;
+            }
+        }
+    }
+}
