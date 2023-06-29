@@ -1,0 +1,13 @@
+.menu-container.is-open {
+    transform: translateX(0);
+}
+.button-hamburger {
+    border: none;
+    fill: var(--black);
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        fill: var(--brand-color);
+    }
+}

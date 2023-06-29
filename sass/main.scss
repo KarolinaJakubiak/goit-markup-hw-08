@@ -1,3 +1,4 @@
+@import "./utils/mixins";
 @import "./utils/vars";
 @import "./components/employee_cards.scss";
 @import "./components/employee_cards_socialmedia";
@@ -16,3 +17,4 @@
 @import "./components/modal";
 @import "./components/portfolio_button_menu";
 @import "./components/portfolio_project_menu";
+@import "./components/mobile-menu";
