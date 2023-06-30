@@ -1,11 +1,20 @@
 .navigation {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     gap: 46px;
     max-width: 245px;
     margin-left: 47px;
     margin-right: 371px;
+
+    @include tablet {
+        display: inline-flex;
+        margin-left: 93px;
+    }
+
+    @include desktop {
+        display: flex;
+    }
 }
 .link-underline {
     position: relative;

@@ -15,8 +15,18 @@ section {
     padding-block: 94px;
 }
 .container {
-    width: 1200px;
+    max-width: 480px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
+
+    @include tablet {
+        max-width: 768px;
+    }
+
+    @include desktop {
+        max-width: 1200px;
+    }
 }
 .link {
     color: var(--almost-black);
@@ -47,9 +57,31 @@ section {
     margin-top: 60px;
 }
 .card-set {
-    display: flex;
-    flex-wrap: nowrap;
+    display: none;
     justify-content: space-between;
+    padding: 0;
+    gap: 30px;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 354px;
+    }
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 270px;
+    }
 }
 
 a:hover,

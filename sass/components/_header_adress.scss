@@ -1,8 +1,16 @@
 .adress {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+
+    @include tablet {
+        display: inline-block;
+    }
+
+    @include desktop {
+        display: flex;
+    }
 
     .link-color {
         color: var(--mouse);

@@ -1,13 +1,32 @@
+.title {
+    display: none;
+
+    @include desktop {
+        display: block;
+    }
+}
+
 .specialty {
-    display: flex;
+    display: none;
     justify-content: space-between;
     flex-wrap: nowrap;
     padding: 0;
+
+    @include desktop {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
 
     &__list {
         position: relative;
         overflow: hidden;
         list-style-type: none;
+
+        @include desktop {
+            display: flex;
+        }
     }
 
     &__list-label {
