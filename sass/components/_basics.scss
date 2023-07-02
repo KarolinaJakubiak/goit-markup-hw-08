@@ -68,13 +68,15 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 354px;
     }
 
     @include desktop {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    &__element {
+        flex-basis: calc((100%-3 * 30) / 4);
     }
 }
 
