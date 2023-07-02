@@ -76,7 +76,7 @@ section {
         justify-content: center;
     }
     &__element {
-        flex-basis: calc((100%-3 * 30) / 4);
+        flex-basis: calc((100% - 90px) / 2);
     }
 }
 

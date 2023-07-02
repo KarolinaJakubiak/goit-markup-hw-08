@@ -1,21 +1,22 @@
 .footer-flex {
-    height: 603px;
-
-    @include tablet {
-        height: 463px;
-    }
-
-    @include desktop {
-        height: 252px;
-    }
+    background-color: var(--dark-grey);
 
     .footer-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
 
         @include desktop {
             display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
     }
 }
@@ -29,7 +30,6 @@
     letter-spacing: 3%;
     vertical-align: top;
     text-align: left;
-    padding-left: 200px;
 }
 .footer-address {
     color: var(--snow);
@@ -38,10 +38,9 @@
     line-height: 1, 7;
     letter-spacing: 3%;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
     width: 246px;
-    padding-left: 200px;
 }
 .footer-link {
     color: var(--snow);
@@ -50,8 +49,7 @@
     line-height: 1, 7;
     letter-spacing: 3%;
     vertical-align: top;
-    text-align: left;
-    padding-left: 200px;
+    text-align: center;
 
     &:hover,
     &:focus,
