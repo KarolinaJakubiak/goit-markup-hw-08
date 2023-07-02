@@ -17,4 +17,8 @@
 }
 .element__icon {
     background-color: var(--almost-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
 }
