@@ -1,7 +1,13 @@
 .clients {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 30px;
+
+    @include desktop {
+        display: flex;
+        justify-content: space-between;
+    }
 
     &-border {
         list-style: none;
@@ -14,6 +20,13 @@
         justify-content: center;
         align-items: center;
         fill: var(--icons-grey);
+
+        @include tablet {
+            width: 226px;
+        }
+        @include desktop {
+            width: 170px;
+        }
 
         &:hover,
         :focus {
