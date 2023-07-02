@@ -6,6 +6,15 @@
         border-radius: $default-border-radius;
         box-shadow: $default-box-shadow;
         padding: 0;
+        width: 450px;
+
+        @include tablet {
+            width: 354px;
+        }
+
+        @include desktop {
+            width: 270px;
+        }
     }
     .card-set__element {
         background-color: var(--snow);
