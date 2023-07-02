@@ -1,17 +1,22 @@
 .footer-flex {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--dark-grey);
+    height: 603px;
 
-    .footer-background {
-        margin: 0 auto;
-        height: 192px;
-        padding-top: 60px;
+    @include tablet {
+        height: 463px;
     }
+
+    @include desktop {
+        height: 252px;
+    }
+
     .footer-container {
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
         align-items: center;
+
+        @include desktop {
+            display: flex;
+        }
     }
 }
 .footer-logo {
