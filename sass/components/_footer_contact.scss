@@ -29,7 +29,12 @@
     line-height: 1, 2;
     letter-spacing: 3%;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
+
+    @include mobile {
+        margin-left: 50px;
+        
+    }
 }
 .footer-address {
     color: var(--snow);
@@ -40,7 +45,11 @@
     vertical-align: top;
     text-align: center;
     padding-top: 20px;
-    width: 246px;
+
+    @include mobile {
+        text-align: center;
+    }
+   
 }
 .footer-link {
     color: var(--snow);
@@ -50,6 +59,10 @@
     letter-spacing: 3%;
     vertical-align: top;
     text-align: center;
+
+    @include mobile {
+        margin-left: 45px;
+    }
 
     &:hover,
     &:focus,

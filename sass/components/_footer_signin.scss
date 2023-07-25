@@ -4,6 +4,7 @@
     @include mobile {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     @include tablet {
         flex-direction: column;
@@ -19,7 +20,7 @@
         border: 1px solid var(--snow);
         color: var(--snow);
         background-color: var(--dark-grey);
-        padding-left: 50px;
+        padding-left: 30px; 
         text-align: left;
     }
     &__button {

@@ -5,4 +5,8 @@
     letter-spacing: 0.03em;
     color: var(--snow);
     margin-top: 80px;
+
+    @include mobile {
+        text-align: center;
+    }
 }
