@@ -10,8 +10,9 @@ ul {
 h4 {
     margin: 0 auto;
 }
-
-
+section {
+    padding-block: 40px;
+}
 .container {
     max-width: 480px;
     width: 100%;
@@ -74,9 +75,7 @@ h4 {
         flex-direction: row;
         justify-content: center;
     }
-    &__element {
-        flex-basis: calc((100% - 90px) / 2);
-    }
+   
 }
 
 a:hover,
