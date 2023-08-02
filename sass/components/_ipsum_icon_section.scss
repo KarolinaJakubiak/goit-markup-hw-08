@@ -6,6 +6,10 @@
     vertical-align: top;
     text-align: left;
     margin-top: 40px;
+
+    @include mobile {
+        text-align: center;
+    }
 }
 .element__text {
     color: var(--mouse);
