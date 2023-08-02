@@ -17,9 +17,10 @@
             font-size: $font-size16;
             font-weight: 500;
             line-height: 1, 2;
-            letter-spacing: 3%;
+            letter-spacing: 0.48px;
             vertical-align: top;
             text-align: center;
+            margin-top: 30px;
         }
         .element__position {
             color: var(--mouse);

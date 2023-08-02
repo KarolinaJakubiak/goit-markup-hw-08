@@ -11,6 +11,7 @@
             display: flex;
             flex-direction: row;
             gap: 30px;
+            align-items: baseline;
         }
         @include tablet {
             display: flex;
@@ -26,9 +27,8 @@
     text-decoration: none;
     font-size: $font-size26;
     font-weight: 700;
-    line-height: 1, 2;
-    letter-spacing: 3%;
-    vertical-align: top;
+    line-height: 1.2;
+    letter-spacing: 0.42px;
     text-align: center;
 
     @include mobile {
@@ -40,8 +40,8 @@
     color: var(--snow);
     text-decoration: none;
     font-size: $font-size14;
-    line-height: 1, 7;
-    letter-spacing: 3%;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
     vertical-align: top;
     text-align: center;
     padding-top: 20px;
@@ -54,8 +54,8 @@
     color: var(--snow);
     text-decoration: none;
     font-size: $font-size14;
-    line-height: 1, 7;
-    letter-spacing: 3%;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
     vertical-align: top;
     text-align: center;
 
