@@ -58,16 +58,16 @@
         font-size: $font-size18;
         font-weight: 700;
         line-height: 2;
-        letter-spacing: 6%;
-        vertical-align: top;
+        letter-spacing: 1.08px;
         text-align: left;
+        margin-top: 20px;
     }
     &__type {
         color: var(--mouse);
         font-size: $font-size16;
-        line-height: 1, 9;
-        letter-spacing: 3%;
-        vertical-align: top;
+        line-height: 1.9;
+        letter-spacing: 0.48px;
         text-align: left;
+        margin-top: 5px;
     }
 }
