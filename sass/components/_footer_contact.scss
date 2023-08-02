@@ -6,6 +6,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        @include mobile {
+            padding-top: 60px;
+        }
 
         @include desktop {
             display: flex;
@@ -33,7 +37,6 @@
 
     @include mobile {
         margin-left: 50px;
-       
     }
     
 }
@@ -48,6 +51,9 @@
     padding-top: 20px;
 
     @include mobile {
+        text-align: center;
+    }
+    @include tablet {
         text-align: center;
     }
 }
