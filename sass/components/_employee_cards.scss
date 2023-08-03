@@ -12,6 +12,16 @@
         justify-content: space-between;
         width: $employee-card-width;
 
+        @include mobile {
+            width: 450px;
+            height: 622px;
+        }
+
+        @include tablet {
+            width: 354px;
+            height: 536px;
+        }
+
 
         .element__name {
             font-size: $font-size16;
