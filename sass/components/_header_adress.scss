@@ -7,7 +7,7 @@
     @include tablet {
         display: grid;
         justify-content: center;
-        gap: 0;
+        gap: 10px;
     }
 
     @include desktop {

@@ -19,8 +19,8 @@
         width: 358px;
         height: 50px;
         border-radius: $default-border-radius;
-        border: 1px solid var(--snow);
-        color: var(--snow);
+        border: 1px solid var(--mouse);
+        color: var(--mouse);
         background-color: var(--dark-grey);
         padding-left: 30px; 
         text-align: left;
@@ -33,23 +33,22 @@
         border-radius: $default-border-radius;
         box-shadow: $default-box-shadow;
         color: var(--snow);
-        text-align: center;
         cursor: pointer;
         width: 200px;
-        height: 55px;
+        height: 50px;
         font-size: $font-size16;
         font-weight: 700;
-        line-height: 1, 9;
-        letter-spacing: 6%;
-        vertical-align: top;
+        line-height: 1.9;
+        letter-spacing: 0.96px;
         text-align: center;
-        margin-bottom: 12px;
+        margin-bottom: 60px;
         margin-top: 20px;
         
 
         .send-icon {
             fill: var(--snow);
             margin-left: 24px;
+      
         }
     }
 }
