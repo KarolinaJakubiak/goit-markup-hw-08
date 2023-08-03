@@ -1,5 +1,9 @@
 .footer-flex {
     background-color: var(--dark-grey);
+    @include tablet {
+        height: 463px;
+    }
+
 
     .footer-container {
         display: flex;
@@ -27,6 +31,13 @@
         }
     }
 }
+.blabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .footer-logo {
     font-family: var(--secondary-font);
     color: var(--snow);
@@ -37,9 +48,7 @@
     letter-spacing: 0.42px;
     text-align: center;
 
-    @include mobile {
-        margin-left: 50px;
-    }
+   
     
 }
 .footer-address {
@@ -51,12 +60,14 @@
     vertical-align: top;
     text-align: center;
     padding-top: 20px;
+    
 
     @include mobile {
         text-align: center;
     }
     @include tablet {
         align-items: center;
+        justify-content: center;
     }
 }
 .footer-link {
@@ -68,9 +79,7 @@
     vertical-align: top;
     text-align: center;
 
-    @include mobile {
-        margin-left: 45px;
-    }
+   
     @include tablet {
         align-items: center;
     }
