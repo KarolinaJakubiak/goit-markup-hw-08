@@ -37,6 +37,10 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+
+    @include desktop {
+        display: block;
+    }
 }
 .footer-logo {
     font-family: var(--secondary-font);
@@ -47,7 +51,6 @@
     line-height: 1.2;
     letter-spacing: 0.42px;
     text-align: center;
-
    
     
 }
@@ -65,10 +68,7 @@
     @include mobile {
         text-align: center;
     }
-    @include tablet {
-        align-items: center;
-        justify-content: center;
-    }
+   
 }
 .footer-link {
     color: var(--mouse);
@@ -80,9 +80,7 @@
     text-align: center;
 
    
-    @include tablet {
-        align-items: center;
-    }
+  
 
     &:hover,
     &:focus,
